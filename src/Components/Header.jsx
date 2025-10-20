@@ -87,7 +87,7 @@ const Header = () => {
         
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Full Name *
+            
             </label>
             <input
               type="text"
@@ -103,7 +103,7 @@ const Header = () => {
         
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Email Address *
+              
             </label>
             <input
               type="email"
@@ -119,7 +119,7 @@ const Header = () => {
           
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Phone Number *
+              
             </label>
             <input
               type="tel"
@@ -151,7 +151,7 @@ const Header = () => {
         
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              City *
+            
             </label>
             <input
               type="text"
@@ -169,7 +169,7 @@ const Header = () => {
             type="submit"
             className="w-full bg-orange-500 text-white py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors mt-4"
           >
-            Save Delivery Details
+          
           </button>
 
         
@@ -178,7 +178,7 @@ const Header = () => {
             onClick={hideSideMenu}
             className="w-full bg-gray-200 text-gray-700 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
           >
-            Cancel
+          
           </button>
         </form>
       </div>
@@ -187,13 +187,13 @@ const Header = () => {
       <header className="p-[15px] shadow-xl text-[#685b78] sticky top-0 bg-white z-[9999]">
         <div className="max-w-[1200px] mx-auto flex items-center">
           <div className="w-[100px]">
-            <img src="images/Swiggy.png" className="w-full" />
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp7e9-ELr0kloaNftORz8hFMLKgQh1t74a_w&s" className="w-full" />
           </div>
           <div className="ml-4">
             <span className="font-bold border-b-[3px] border-[black] pr-2 hover:text-[#fc8020]">
-              Bihar
+              Bihar,
             </span>
-            Delhi NCR, Mumbai
+            Delhi,  Mumbai...
             <RxCaretDown
               fontSize={25}
               className="inline text-[#fc8020] cursor-pointer"

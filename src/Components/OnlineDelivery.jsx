@@ -147,7 +147,7 @@ return()=>{
         </div>
       </div>
         <div className={isAtTop ? 'fixed top-0 z-[9999] bg-white w-full left-0 ': ''}>
-          <div className=" max-w-[1200px] mx-auto flex justify-between my-4 gap-3 rounded-xl p-3 overflow-x-auto">
+          <div className=" max-w-[1200px] mx-auto flex justify-between my-4 gap-3 rounded-xl p-3 overflow-x-auto ">
             <div className="p-3 rounded-md shadow">Filter</div>
             <div className="p-3 rounded-md shadow">Sort By</div>
             <div className="p-3 rounded-md shadow">Fast Delivery</div>
@@ -158,7 +158,7 @@ return()=>{
 
           </div>
         </div>
-      <div className=" grid grid-cols-2 md:grid-cols-4 gap-3 ">
+      <div className=" grid grid-cols-1 md:grid-cols-4 gap-3 ">
       {
         data.map((d,i)=>{
             return <Card  {...d.info} key={d.info.id} />
